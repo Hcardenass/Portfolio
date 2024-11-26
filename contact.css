@@ -1,0 +1,96 @@
+form {
+  font-size: 1.2rem;
+}
+
+form label {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus {
+  width: 100%;
+  padding: 1rem;
+  color: var(--black);
+  background-color: white;
+  box-shadow: none;
+  cursor: pointer;
+  margin: 1rem 0 2rem;
+}
+
+textarea {
+  resize: none;
+}
+
+form button {
+  background-color: #2b7043;
+  color: white;
+  margin: 3rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 1rem;
+}
+
+form button:hover {
+  background-color: var(--gray3);
+}
+
+/* #social-media img {
+  border-radius: 10px;
+  background-color: var(--white);
+  transition: all ease 0.3s;
+  margin: 1rem;
+} */
+
+/* #social-media a {
+  text-decoration: none;
+} */
+
+/* Nuevo */
+#social-media {
+  display: flex;
+  min-width: 700px;
+  justify-content:space-around;
+  width: 50%;
+  transform: translate(46%);
+}
+#social-media a {
+  text-decoration: none;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: var(--white);
+  color: var(--black);
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transform: all .8s ease-in-out;
+  transition: background-color .2s ease;
+  transition: color .1s ease;
+  
+}
+
+#social-media a:hover {
+    transform: scale(1.2)
+}
+
+/*  hasta aqui */
+#linkedin:hover {
+  background-color: #0077b5;
+   color: var(--white2);
+  opacity: 1;
+
+}
+
+#github:hover {
+  background-color: black;
+  color: var(--white2);
+  opacity: 1;
+}
+

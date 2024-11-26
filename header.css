@@ -1,0 +1,18 @@
+header{
+  background: linear-gradient(var(--black), var(--black2));
+  overflow: hidden;
+  padding: 5rem 0 3rem;
+ position: relative;
+  
+}
+
+header video{
+  position: absolute;
+  top: 30%;
+ left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%,-50%);
+  opacity: 0.2;
+
+}
