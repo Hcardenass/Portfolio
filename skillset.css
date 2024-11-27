@@ -45,3 +45,30 @@
   margin-left: -5px;
   border-color: rgba(0,0, 0,0.75) transparent transparent ;
 }
+
+/* Estilos responsivos */
+@media (max-width: 1024px) {
+  #skillset > div {
+    grid-template-columns: repeat(2, 1fr); /* Cambia a 2 columnas en pantallas medianas */
+  }
+}
+
+@media (max-width: 600px) {
+  #skillset > div {
+    grid-template-columns: 1fr; /* Cambia a 1 columna en pantallas pequeñas */
+    grid-gap: 0.5rem;
+  }
+
+  #skillset img {
+    max-width: 5rem; /* Reduce el tamaño de las imágenes */
+  }
+
+  #skillset span {
+    width: 100px; /* Ajusta el ancho del tooltip para pantallas pequeñas */
+    transform: translate(-50%, 10px); /* Centra mejor el tooltip */
+  }
+
+  #skillset > div > div:hover span {
+    transform: translate(-50%, 0px); /* Ajusta el tooltip en hover */
+  }
+}
