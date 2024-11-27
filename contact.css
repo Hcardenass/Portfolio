@@ -54,10 +54,10 @@ form button:hover {
 /* Nuevo */
 #social-media {
   display: flex;
-  min-width: 700px;
+  /*min-width: 700px;*/
   justify-content:space-around;
   width: 50%;
-  transform: translate(46%);
+  transform: translate(50%);
 }
 #social-media a {
   text-decoration: none;
